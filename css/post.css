@@ -1,0 +1,86 @@
+html
+
+.rectangle {
+    width: 1032px;
+    height:460px;
+    background:#C4C4C4;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 34px;
+    color: #FF4081;
+    margin-top: 40px;
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.date {
+    color: #c6c6c6;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+h2 {
+    font-size: 30px;
+    line-height: 54px;
+    margin-top: 50px;
+    color: #009688;
+}
+
+.texto {
+    width: 1032px;
+    margin-top: 50px;
+    margin-left: 250px;
+    
+}
+
+.listacursos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 280px;
+}
+
+.imgcursos {
+    width: 260px;
+
+}
+.imgcursoss {
+width: 238px;
+}
+.imgcursosss {
+width: 187px;
+}
+
+.segsec h2 {
+text-align: center;
+color: #FF4081;
+font-size: 25px;
+line-height: 25px;
+
+}
+    
+.sectioncursos {
+display: flex;
+background-color: #F6F6F6;
+height: 600px;
+}
+    
+.botaosolido {
+        background-color:#FF4081; 
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 22px;
+      border-radius: 50px;
+    }
+    
+.segsec {
+    background: #F7F7F7;
+}

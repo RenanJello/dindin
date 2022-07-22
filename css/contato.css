@@ -1,0 +1,44 @@
+html
+
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 310px 40px 310px;
+    width: 900px;
+}
+
+h1 {
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    padding-left: 37px;
+}
+
+.leftcolumn {
+    padding-right: 40px;
+}
+
+.colunas li {
+    border: 1px solid #686868;
+    border-radius: 7px;
+    padding: 10px 390px 10px 25px;
+    margin-bottom: 15px;
+    color: #686868;
+}
+
+#bigblock {
+    height: 200px;
+}
+
+.botao {
+    background-color:#FF4081; 
+  border: none;
+  color: white;
+  padding: 9px 32px;
+  text-align: center;
+  border-radius: 50px;
+  width: 50px;
+  margin-left: 40px;
+}
