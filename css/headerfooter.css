@@ -1,0 +1,152 @@
+html
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    background-color: #2e948a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.header img {
+    max-width: 180px;
+    height: auto;
+}
+
+.header > .nav > li {
+    padding: 0px 30px 20px 10px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 23px;
+    display: inline;
+}
+
+.footer {
+    background-color: #2e948a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     padding: 15px;
+}
+
+.footer img {
+    max-width: 250px;
+    height: auto;
+}
+
+
+.header a:link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer a:link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+    
+
+li {
+    list-style: none;
+}
+
+.button > li {
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 12px 45px;
+    margin: 6px;
+
+}
+
+/* css dispositivo móvel */
+
+@media only screen and (max-width: 767px) {
+    .header img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .header a {
+    font-size: 12px;
+    }
+
+    .footer {
+        display: block;
+        max-width: 100%;
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-around;
+        font-size: 16px;
+    }
+
+    .links a {
+        margin: 5px;
+    }
+
+    .footer img {
+        max-width: 140px;
+        height: auto;
+    }
+    
+    .button > li {
+    max-width: 180px;
+        margin: 24px auto;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+/* css para tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .header img {
+        max-width: 220px;
+        margin: 20px;
+        height: auto;
+    }
+
+    .header a {
+    font-size: 22px;
+    margin: 15px;
+    }
+
+    .footer {
+        display: block;
+        max-width: 100%;
+        padding: 30px;
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-around;  
+        align-items: center;
+    }
+
+    .links a {
+        margin: 30px;
+        font-size: 30px;
+    }
+
+    .footer img {
+        max-width: 240px;
+        height: auto;
+    }
+
+    .button > li {
+        max-width: 300px;
+        margin: 30px auto;
+        padding: 5px;
+        text-align: center;
+        font-size: 26px;
+    }
+
+}

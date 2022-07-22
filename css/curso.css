@@ -1,0 +1,54 @@
+html
+
+h1 {
+    font-weight: 700;
+font-size: 60px;
+line-height: 69px;
+margin: 0%;
+color: #FF4081;
+}
+
+.investimento {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 310px 40px 310px;
+    width: 900px;
+}
+
+.txtinvestimento {
+    align-items: flex-start;
+    width: 500px;
+}
+
+h2 {
+    font-weight: 600;
+font-size: 40px;
+line-height: 69px;
+margin: 0%;
+color: #FF4081;
+}
+
+.txtaula {
+    align-items: flex-start;
+    width: 500px;
+}
+
+.aula {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 280px 40px 280px;
+}
+
+.aula img {
+    width: 390px;
+}
+hr {
+    margin: 8px 200px;
+    color: #C4C4C4;
+}
+
+.segsec {
+    background: #F7F7F7;
+}

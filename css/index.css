@@ -1,0 +1,207 @@
+html
+
+
+.edccao {
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 69px;
+color: #FF4081;
+} 
+
+.textobanner {
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 31px;
+color: #555555;
+}
+
+.botao1 {
+    color: #FF4081;
+    display: inline;
+    border: 3px solid #FF4081;
+    border-radius: 50px;
+    padding: 6px 20px;
+    font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 31px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 280px 40px 280px;
+}
+
+.firsttext {
+    padding: 10px 50px 30px 50px;
+}
+
+.imgbanner {
+   padding-top: 50px;
+}
+
+.listacursos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 280px;
+}
+
+.imgcursos {
+    width: 260px;
+
+}
+.imgcursoss {
+width: 238px;
+}
+.imgcursosss {
+width: 187px;
+}
+
+h2 {
+text-align: center;
+color: #FF4081;
+}
+
+.sectioncursos {
+    display: flex;
+    text-align: center;
+background-color: #F6F6F6;
+height: 600px;
+}
+
+.botaosolido {
+    background-color:#FF4081; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  border-radius: 50px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.oquefalam {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+    color: #009688;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 280px 0px 280px;
+    
+}
+
+.oqfalam {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 0px 280px 50px 280px;
+}
+
+.wally {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px 50px 0px;
+}
+
+.wallypic {
+    padding-right: 18px;
+    display: flex;
+}
+
+.maisconteudo {
+background-color: #F6F6F6;
+height: 600px;
+
+}
+.conteudos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 280px;
+}
+
+.itaque {
+    color: #009688;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 8px;
+}
+.rectangle {
+    width: 280px;
+    height:160px;
+    background:#C4C4C4;
+}
+
+/* css dispositivo móvel */
+
+@media only screen and (max-width: 767px) {
+    
+
+    
+    .banner {
+            display: block;
+            padding-top: 50px;
+            max-width: 80%;
+            margin: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .imgbanner {
+            width: 250px;
+            display: flex;
+            justify-content: space-around;
+    }
+
+    .sectioncursos {
+        justify-content: space-around;
+        align-items: center;
+    }
+ .listacursos {
+    display: unset;
+    margin-top: 1000px;
+    background-color: #F6F6F6;
+ }
+ .botao1 {
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+ }
+ 
+ .oqfalam {
+    display: unset;
+    padding: unset
+ }
+.comentarios {
+    padding: 1000px 0px 0px 0px;
+}
+.oquefalam {
+    padding: unset;
+}
+.conteudos {
+    display: unset;
+    padding: 0;
+}
+
+.maisconteudo {
+    height: unset;
+}
+}
+
+
+    

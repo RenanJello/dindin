@@ -1,0 +1,80 @@
+html
+h1 {
+    font-weight: 700;
+font-size: 60px;
+line-height: 69px;
+margin: 0%;
+color: #FF4081;
+}
+
+.subtitulo {
+    margin:0%;
+}
+
+.titulo {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.primeirocurso {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 280px 40px 280px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+section img {
+    width: 300px;
+    padding-right: 50px;
+}
+
+.txtprimeirocurso {
+    align-items: flex-start;
+}
+
+h2 {
+    font-weight: 700;
+font-size: 35px;
+line-height: 40px;
+color: #FF4081;
+}
+
+.botaocurso {
+    background: #419488;
+    border-radius: 62px;
+    padding: 10px 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.sedut {
+    margin-bottom: 50px;
+}
+
+hr {
+    margin: 8px 200px;
+    color: #C4C4C4;
+}
+
+.imgindependencia {
+    height: 350px;
+    padding-right: 80px;
+}
+
+/* css dispositivo móvel */
+
+@media only screen and (max-width: 767px) {
+
+    section img {
+        max-width: 280px;
+    }
+
+}
